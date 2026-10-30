@@ -1,0 +1,39 @@
+{
+  "data_packets": 402,
+  "burst_count": 5,
+  "gap_threshold_s": 0.05,
+  "within_gap_s": {
+    "count": 397,
+    "min": 9.393692016601562e-05,
+    "p50": 0.001001119613647461,
+    "p95": 0.0010330677032470703,
+    "p99": 0.0010730171203613282,
+    "max": 0.0012021064758300781
+  },
+  "between_gap_s": {
+    "count": 4,
+    "min": 0.20090508460998535,
+    "p50": 0.20092451572418213,
+    "p95": 0.20094071626663207,
+    "p99": 0.2009417748451233,
+    "max": 0.2009420394897461
+  },
+  "burst_span_s": {
+    "count": 5,
+    "min": 0.0,
+    "p50": 0.09908199310302734,
+    "p95": 0.0991884708404541,
+    "p99": 0.09920819282531738,
+    "max": 0.0992131233215332
+  },
+  "burst_start_period_s": {
+    "count": 4,
+    "min": 0.2999720573425293,
+    "p50": 0.30002355575561523,
+    "p95": 0.30011438131332396,
+    "p99": 0.3001260256767273,
+    "max": 0.3001289367675781
+  },
+  "interpretation": "Sender-side loopback timestamps; positive sequence and exact payload-size filter. No wire or receiver timing claim.",
+  "capture_dropped_packets": 0
+}

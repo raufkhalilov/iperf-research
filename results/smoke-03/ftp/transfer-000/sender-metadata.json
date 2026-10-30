@@ -1,0 +1,20 @@
+{
+  "pid": 37864,
+  "monotonic_start": 2461.458108051,
+  "wall_start": 1793174723.2401073,
+  "cgroup_before": {
+    "path": "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice/iperf-lab-a7422184c8bc4ac19e5039df6a6ae1c3.service",
+    "ancestors": {
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice": "max 100000"
+    },
+    "cpu.max": null,
+    "cpu.stat": "usage_usec 42100\nuser_usec 35084\nsystem_usec 7016\nnice_usec 0\ncore_sched.force_idle_usec 0",
+    "cpuset.cpus.effective": null
+  },
+  "affinity": [
+    0
+  ]
+}

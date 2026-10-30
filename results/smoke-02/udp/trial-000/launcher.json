@@ -1,0 +1,23 @@
+{
+  "command": [
+    "systemd-run",
+    "--user",
+    "--quiet",
+    "--wait",
+    "--collect",
+    "--pipe",
+    "--unit=iperf-lab-04d4c51eade04d9db54aeab42404fdfe",
+    "-p",
+    "WorkingDirectory=/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research",
+    "-p",
+    "CPUQuota=25%",
+    "-p",
+    "CPUQuotaPeriodSec=100ms",
+    "/usr/bin/python3",
+    "-m",
+    "netperf_lab.worker",
+    "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/smoke-02/udp/trial-000/sender-spec.json"
+  ],
+  "backend": "systemd",
+  "unit": "iperf-lab-04d4c51eade04d9db54aeab42404fdfe"
+}

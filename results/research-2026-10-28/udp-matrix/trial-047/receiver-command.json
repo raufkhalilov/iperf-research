@@ -1,0 +1,18 @@
+[
+  "taskset",
+  "-c",
+  "2",
+  "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/.tools/root/usr/bin/iperf",
+  "-s",
+  "-p",
+  "17047",
+  "-B",
+  "127.0.0.1",
+  "-u",
+  "-y",
+  "C",
+  "-l",
+  "128",
+  "-w",
+  "1048576"
+]

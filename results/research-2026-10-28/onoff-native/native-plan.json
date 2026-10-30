@@ -1,0 +1,10 @@
+{
+  "fps": 3.333333333333333,
+  "mean_bps": 3199999.9999999995,
+  "target_on_s": 0.1,
+  "target_off_s": 0.2,
+  "ipg_s": 0.001,
+  "ipg_unit": "milliseconds",
+  "requested_burst_payload_bytes": 120000.0,
+  "approximation": "Packet-quantized native frames, final frame may be partial; verify capture."
+}

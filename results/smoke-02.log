@@ -1,0 +1,6 @@
+UDP 1/4: iperf3, quota=25, target=10000000, tx=9990004
+UDP 2/4: iperf3, quota=None, target=10000000, tx=9988476
+UDP 3/4: iperf, quota=None, target=10000000, tx=10018355
+UDP 4/4: iperf, quota=25, target=10000000, tx=10018585
+ON/OFF isochronous: 4 observed bursts, 318 packets
+ERROR: Capture contains no matching iPerf2 data packets

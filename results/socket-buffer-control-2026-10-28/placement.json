@@ -1,0 +1,5 @@
+{
+  "sender_cpu": 0,
+  "receiver_cpu": 2,
+  "unrestricted_definition": "No cgroup quota; sender affinity remains one logical CPU in all cases"
+}

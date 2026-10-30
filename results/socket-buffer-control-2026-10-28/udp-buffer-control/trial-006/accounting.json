@@ -1,0 +1,36 @@
+{
+  "returncode": 0,
+  "process_wall_s": 2.0051428439996926,
+  "monotonic_start": 3189.956746953,
+  "monotonic_end": 3191.961889797,
+  "cpu_user_s": 1.995797,
+  "cpu_system_s": 0.004702,
+  "cpu_s": 2.000499,
+  "cpu_percent_one_core": 99.76840333278055,
+  "max_rss_kib": 13112,
+  "cgroup_before": {
+    "path": "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice/iperf-lab-cd863aa0e892460c9d0e67dfffdc1a8d.service",
+    "ancestors": {
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice": "max 100000"
+    },
+    "cpu.max": null,
+    "cpu.stat": "usage_usec 32033\nuser_usec 21021\nsystem_usec 11011\nnice_usec 0\ncore_sched.force_idle_usec 0",
+    "cpuset.cpus.effective": null
+  },
+  "cgroup_after": {
+    "path": "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice/iperf-lab-cd863aa0e892460c9d0e67dfffdc1a8d.service",
+    "ancestors": {
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice": "max 100000"
+    },
+    "cpu.max": null,
+    "cpu.stat": "usage_usec 2034331\nuser_usec 2017345\nsystem_usec 16986\nnice_usec 0\ncore_sched.force_idle_usec 0",
+    "cpuset.cpus.effective": null
+  },
+  "receiver_cpu_percent_sampled": 54.94571999066074
+}

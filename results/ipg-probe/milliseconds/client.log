@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Client connecting to 127.0.0.1, UDP port 15301 with pid 31397 (1 flows)
+Isochronous: 2.00 frames/sec mean=1.00 Mbit/s, stddev=0.000 bit/s, Period/IPG=500.00/0.959 ms
+TOS set to 0x0 (Nagle on)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1%lo port 49129 connected with 127.0.0.1 port 15301 (isoch) (sock=3) on 2026-10-28 10:56:37.715 (MSK)
+[ ID] Interval            Transfer     Bandwidth      Write/Err  PPS  isoch:tx/miss/slip
+[  1] 0.0000-1.5011 sec   187 KBytes  1.02 Mbits/sec  161/0     109 pps    4/0/0
+[  1] Sent 163 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-1.5011 sec   187 KBytes  1.02 Mbits/sec   0.007 ms 0/162 (0%)
+[  1] Isoch schedule errors (mean/min/max/stdev) = 0.078/0.055/0.101/0.024 ms

@@ -1,0 +1,14 @@
+{
+  "seed": 814,
+  "kind": "udp_matrix",
+  "name": "remote-udp",
+  "receiver": {"mode": "ssh", "host": "192.0.2.2", "ssh_host": "research@192.0.2.2", "binaries": {"iperf": "/usr/bin/iperf", "iperf3": "/usr/bin/iperf3"}},
+  "cpu_backend": "systemd",
+  "socket_buffer_bytes": 1048576,
+  "cpu_quotas_percent": [null, 100, 50, 25],
+  "rates_bps": [10000000, 200000000],
+  "packet_sizes": [128, 1200],
+  "duration_s": 10,
+  "repeats": 5,
+  "base_port": 18000
+}

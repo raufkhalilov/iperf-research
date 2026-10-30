@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/.tools/root/usr/bin/iperf3",
+    "-c",
+    "127.0.0.1",
+    "-p",
+    "17008",
+    "-u",
+    "-t",
+    "2",
+    "-b",
+    "10000000",
+    "-l",
+    "1200",
+    "-w",
+    "1048576",
+    "-J",
+    "--pacing-timer",
+    "1000"
+  ],
+  "cpu": 0,
+  "quota_percent": null,
+  "stdout": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/udp-matrix/trial-008/client.stdout",
+  "stderr": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/udp-matrix/trial-008/client.stderr",
+  "metadata": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/udp-matrix/trial-008/sender-metadata.json",
+  "accounting": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/udp-matrix/trial-008/sender-accounting.json"
+}

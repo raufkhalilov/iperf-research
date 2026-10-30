@@ -1,0 +1,35 @@
+{
+  "returncode": 0,
+  "process_wall_s": 2.0038267260001703,
+  "monotonic_start": 2825.072944882,
+  "monotonic_end": 2827.076771608,
+  "cpu_user_s": 0.48649499999999996,
+  "cpu_system_s": 0.015037,
+  "cpu_s": 0.501532,
+  "cpu_percent_one_core": 25.028710990451046,
+  "max_rss_kib": 13072,
+  "cgroup_before": {
+    "path": "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice/iperf-lab-45aca44f8a874724bbbe11f1dc7a00dc.service",
+    "ancestors": {
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice": "max 100000"
+    },
+    "cpu.max": "25000 100000",
+    "cpu.stat": "usage_usec 28516\nuser_usec 21633\nsystem_usec 6883\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 1\nthrottled_usec 13866\nnr_bursts 0\nburst_usec 0",
+    "cpuset.cpus.effective": null
+  },
+  "cgroup_after": {
+    "path": "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice/iperf-lab-45aca44f8a874724bbbe11f1dc7a00dc.service",
+    "ancestors": {
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service/app.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice/user@621437084.service": "max 100000",
+      "/sys/fs/cgroup/user.slice/user-621437084.slice": "max 100000",
+      "/sys/fs/cgroup/user.slice": "max 100000"
+    },
+    "cpu.max": "25000 100000",
+    "cpu.stat": "usage_usec 531089\nuser_usec 507615\nsystem_usec 23473\nnice_usec 0\ncore_sched.force_idle_usec 0\nnr_periods 21\nnr_throttled 21\nthrottled_usec 1514124\nnr_bursts 0\nburst_usec 0",
+    "cpuset.cpus.effective": null
+  }
+}

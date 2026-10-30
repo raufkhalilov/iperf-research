@@ -1,0 +1,29 @@
+[
+  {
+    "cycle": 0,
+    "requested_on_s": 0.1,
+    "requested_off_s": 0.15,
+    "process_wall_s": 0.1161986209999668,
+    "sender_cpu_percent": 2.927745588306914,
+    "monotonic_start": 2638.516948734,
+    "monotonic_end": 2638.633147355
+  },
+  {
+    "cycle": 1,
+    "requested_on_s": 0.1,
+    "requested_off_s": 0.15,
+    "process_wall_s": 0.1162180480000643,
+    "sender_cpu_percent": 4.811645089751383,
+    "monotonic_start": 2638.82772448,
+    "monotonic_end": 2638.943942528
+  },
+  {
+    "cycle": 2,
+    "requested_on_s": 0.1,
+    "requested_off_s": 0.15,
+    "process_wall_s": 0.11760714000001826,
+    "sender_cpu_percent": 3.447919913705384,
+    "monotonic_start": 2639.144424074,
+    "monotonic_end": 2639.262031214
+  }
+]

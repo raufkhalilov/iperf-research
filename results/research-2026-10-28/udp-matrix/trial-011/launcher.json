@@ -1,0 +1,23 @@
+{
+  "command": [
+    "systemd-run",
+    "--user",
+    "--quiet",
+    "--wait",
+    "--collect",
+    "--pipe",
+    "--unit=iperf-lab-17799652202d45b7a332a2c9ddfadfa0",
+    "-p",
+    "WorkingDirectory=/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research",
+    "-p",
+    "CPUQuota=100%",
+    "-p",
+    "CPUQuotaPeriodSec=100ms",
+    "/usr/bin/python3",
+    "-m",
+    "netperf_lab.worker",
+    "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/udp-matrix/trial-011/sender-spec.json"
+  ],
+  "backend": "systemd",
+  "unit": "iperf-lab-17799652202d45b7a332a2c9ddfadfa0"
+}

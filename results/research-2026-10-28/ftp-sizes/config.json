@@ -1,0 +1,25 @@
+{
+  "seed": 814,
+  "cpu_backend": "systemd",
+  "receiver": {
+    "mode": "local",
+    "host": "127.0.0.1"
+  },
+  "socket_buffer_bytes": 1048576,
+  "pacing_timer_us": 1000,
+  "capture_command": [
+    "scripts/docker-tcpdump.sh"
+  ],
+  "capture_interface": "lo",
+  "capture_tcp": true,
+  "name": "ftp-sizes",
+  "kind": "ftp",
+  "transfers": 6,
+  "file_sizes_bytes": [
+    500000,
+    5000000,
+    50000000
+  ],
+  "reading_time": 0.3,
+  "base_port": 17400
+}

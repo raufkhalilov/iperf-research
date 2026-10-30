@@ -1,0 +1,31 @@
+{
+  "trial": "trial-008",
+  "tool": "iperf3",
+  "quota_percent": null,
+  "packet_size": 1200,
+  "repeat": 2,
+  "duration_s": 2,
+  "tx_bps": 199878719.22300315,
+  "tx_bytes": 49977600,
+  "tx_seconds": 2.000317,
+  "tx_pps": 20820.69991906283,
+  "rx_bps": 199678157.12710994,
+  "loss_percent": 0,
+  "lost_packets": 0,
+  "rx_pps": 20799.808034073954,
+  "target_bps": 200000000,
+  "deviation_percent": -0.060640388498423015,
+  "sender_cpu_percent": 99.62739619415683,
+  "receiver_cpu_percent": 61.03185790099726,
+  "iperf_internal_cpu": {
+    "host_total": 99.6738245173906,
+    "host_user": 99.49425822292287,
+    "host_system": 0.17941648943899513,
+    "remote_total": 61.12954103490854,
+    "remote_user": 8.44603748306563,
+    "remote_system": 52.68350355184291
+  },
+  "cgroup_nr_periods": null,
+  "cgroup_nr_throttled": null,
+  "cgroup_throttled_usec": null
+}

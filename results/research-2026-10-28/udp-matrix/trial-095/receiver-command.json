@@ -1,0 +1,13 @@
+[
+  "taskset",
+  "-c",
+  "2",
+  "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/.tools/root/usr/bin/iperf3",
+  "-s",
+  "-p",
+  "17095",
+  "-B",
+  "127.0.0.1",
+  "-J",
+  "-1"
+]

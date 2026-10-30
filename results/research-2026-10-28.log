@@ -1,0 +1,113 @@
+UDP 1/96: iperf3, quota=100, target=10000000, tx=9996766
+UDP 2/96: iperf3, quota=100, target=200000000, tx=199867731
+UDP 3/96: iperf, quota=None, target=10000000, tx=10001232
+UDP 4/96: iperf, quota=50, target=200000000, tx=199995564
+UDP 5/96: iperf3, quota=25, target=200000000, tx=195854703
+UDP 6/96: iperf3, quota=None, target=10000000, tx=9992973
+UDP 7/96: iperf3, quota=25, target=10000000, tx=9996601
+UDP 8/96: iperf, quota=50, target=200000000, tx=200008599
+UDP 9/96: iperf3, quota=None, target=10000000, tx=9996776
+UDP 10/96: iperf3, quota=50, target=200000000, tx=194918278
+UDP 11/96: iperf, quota=None, target=200000000, tx=200008599
+UDP 12/96: iperf, quota=100, target=10000000, tx=10009232
+UDP 13/96: iperf, quota=25, target=200000000, tx=119764120
+UDP 14/96: iperf, quota=None, target=10000000, tx=10009092
+UDP 15/96: iperf3, quota=25, target=200000000, tx=199878519
+UDP 16/96: iperf3, quota=50, target=200000000, tx=194933553
+UDP 17/96: iperf3, quota=100, target=200000000, tx=199949794
+UDP 18/96: iperf3, quota=50, target=10000000, tx=9747206
+UDP 19/96: iperf, quota=100, target=200000000, tx=199997040
+UDP 20/96: iperf3, quota=50, target=10000000, tx=9754733
+UDP 21/96: iperf3, quota=None, target=200000000, tx=199905663
+UDP 22/96: iperf, quota=25, target=200000000, tx=126436421
+UDP 23/96: iperf3, quota=None, target=200000000, tx=199878020
+UDP 24/96: iperf3, quota=50, target=10000000, tx=9995996
+UDP 25/96: iperf, quota=None, target=200000000, tx=200008699
+UDP 26/96: iperf3, quota=100, target=10000000, tx=9996121
+UDP 27/96: iperf, quota=50, target=200000000, tx=200006467
+UDP 28/96: iperf3, quota=50, target=200000000, tx=194922222
+UDP 29/96: iperf, quota=50, target=10000000, tx=10001247
+UDP 30/96: iperf, quota=25, target=10000000, tx=10001259
+UDP 31/96: iperf, quota=100, target=10000000, tx=10001244
+UDP 32/96: iperf3, quota=25, target=10000000, tx=9996850
+UDP 33/96: iperf3, quota=100, target=200000000, tx=199880518
+UDP 34/96: iperf, quota=25, target=10000000, tx=10009102
+UDP 35/96: iperf3, quota=100, target=10000000, tx=9994152
+UDP 36/96: iperf3, quota=25, target=200000000, tx=199881517
+UDP 37/96: iperf, quota=None, target=200000000, tx=200007491
+UDP 38/96: iperf, quota=None, target=200000000, tx=199998376
+UDP 39/96: iperf, quota=None, target=10000000, tx=10009087
+UDP 40/96: iperf, quota=None, target=10000000, tx=10009187
+UDP 41/96: iperf, quota=100, target=200000000, tx=200009539
+UDP 42/96: iperf, quota=25, target=10000000, tx=10009297
+UDP 43/96: iperf, quota=25, target=200000000, tx=200008499
+UDP 44/96: iperf3, quota=25, target=200000000, tx=116355877
+UDP 45/96: iperf, quota=50, target=10000000, tx=10008972
+UDP 46/96: iperf, quota=100, target=10000000, tx=10001249
+UDP 47/96: iperf, quota=25, target=10000000, tx=10001262
+UDP 48/96: iperf, quota=100, target=200000000, tx=199995776
+UDP 49/96: iperf3, quota=None, target=200000000, tx=199834267
+UDP 50/96: iperf3, quota=25, target=10000000, tx=9994102
+UDP 51/96: iperf3, quota=25, target=200000000, tx=117515892
+UDP 52/96: iperf, quota=100, target=200000000, tx=200008399
+UDP 53/96: iperf, quota=None, target=10000000, tx=10001249
+UDP 54/96: iperf, quota=50, target=200000000, tx=199781619
+UDP 55/96: iperf, quota=25, target=10000000, tx=10009102
+UDP 56/96: iperf3, quota=50, target=200000000, tx=199879718
+UDP 57/96: iperf, quota=25, target=200000000, tx=200007799
+UDP 58/96: iperf, quota=50, target=10000000, tx=10009357
+UDP 59/96: iperf3, quota=100, target=10000000, tx=9993770
+UDP 60/96: iperf3, quota=25, target=10000000, tx=9994232
+UDP 61/96: iperf3, quota=50, target=10000000, tx=9746383
+UDP 62/96: iperf, quota=25, target=200000000, tx=200008699
+UDP 63/96: iperf3, quota=50, target=10000000, tx=9996910
+UDP 64/96: iperf, quota=100, target=10000000, tx=10001242
+UDP 65/96: iperf3, quota=100, target=10000000, tx=9994192
+UDP 66/96: iperf3, quota=25, target=10000000, tx=9996166
+UDP 67/96: iperf3, quota=25, target=200000000, tx=121533890
+UDP 68/96: iperf, quota=50, target=10000000, tx=10008827
+UDP 69/96: iperf3, quota=100, target=200000000, tx=199877520
+UDP 70/96: iperf, quota=50, target=10000000, tx=10001254
+UDP 71/96: iperf3, quota=50, target=200000000, tx=196171457
+UDP 72/96: iperf3, quota=100, target=10000000, tx=9996850
+UDP 73/96: iperf3, quota=None, target=10000000, tx=9994207
+UDP 74/96: iperf3, quota=None, target=10000000, tx=9994262
+UDP 75/96: iperf3, quota=None, target=200000000, tx=199874722
+UDP 76/96: iperf, quota=25, target=10000000, tx=10001252
+UDP 77/96: iperf, quota=None, target=200000000, tx=200008103
+UDP 78/96: iperf, quota=50, target=10000000, tx=10001229
+UDP 79/96: iperf3, quota=None, target=10000000, tx=9996801
+UDP 80/96: iperf, quota=50, target=200000000, tx=200008699
+UDP 81/96: iperf3, quota=None, target=200000000, tx=199917920
+UDP 82/96: iperf3, quota=25, target=10000000, tx=9994367
+UDP 83/96: iperf3, quota=100, target=200000000, tx=199913415
+UDP 84/96: iperf, quota=None, target=200000000, tx=200008699
+UDP 85/96: iperf3, quota=None, target=200000000, tx=199913642
+UDP 86/96: iperf3, quota=100, target=200000000, tx=199946029
+UDP 87/96: iperf, quota=100, target=200000000, tx=200007999
+UDP 88/96: iperf3, quota=None, target=10000000, tx=9996806
+UDP 89/96: iperf, quota=100, target=200000000, tx=200008599
+UDP 90/96: iperf, quota=25, target=200000000, tx=131021430
+UDP 91/96: iperf, quota=None, target=10000000, tx=10001352
+UDP 92/96: iperf3, quota=50, target=200000000, tx=189894728
+UDP 93/96: iperf, quota=50, target=200000000, tx=200001959
+UDP 94/96: iperf, quota=100, target=10000000, tx=10009197
+UDP 95/96: iperf, quota=100, target=10000000, tx=10009077
+UDP 96/96: iperf3, quota=50, target=10000000, tx=9744277
+ON/OFF isochronous: 9 observed bursts, 802 packets
+ON/OFF isochronous: 9 observed bursts, 802 packets
+ON/OFF sessions: 5 observed bursts, 510 packets
+ON/OFF sessions: 6 observed bursts, 732 packets
+ON/OFF burst_probe: 1 observed bursts, 1492 packets
+TCP 1/6: 500000 bytes, 0.100556s
+TCP 2/6: 500000 bytes, 0.101083s
+TCP 3/6: 500000 bytes, 0.100600s
+TCP 4/6: 500000 bytes, 0.100733s
+TCP 5/6: 500000 bytes, 0.101379s
+TCP 6/6: 500000 bytes, 0.101462s
+TCP 1/6: 500000 bytes, 0.101287s
+TCP 2/6: 5000000 bytes, 0.100743s
+TCP 3/6: 50000000 bytes, 0.100709s
+TCP 4/6: 500000 bytes, 0.100724s
+TCP 5/6: 5000000 bytes, 0.100756s
+TCP 6/6: 50000000 bytes, 0.101073s

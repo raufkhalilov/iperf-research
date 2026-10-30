@@ -1,0 +1,1839 @@
+{
+  "checks": [
+    {
+      "check": "root_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "recorded_generation_sources_unchanged",
+      "passed": true,
+      "detail": [
+        "netperf_lab/analysis.py"
+      ]
+    },
+    {
+      "check": "postprocessing_sources_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "burst-options-probe:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "burst-options-probe:capture_no_drops",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-model2:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-model2:transfer_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-model2:exact_sizes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-model2:complete_capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-model2:final_ack",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-model2:reading_schedule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-sizes:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-sizes:transfer_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-sizes:exact_sizes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-sizes:complete_capture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-sizes:final_ack",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ftp-sizes:reading_schedule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-native:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-native:capture_no_drops",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-native-cpu25:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-native-cpu25:capture_no_drops",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-random:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-random:capture_no_drops",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-random:session_bursts",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "check": "onoff-sessions:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-sessions:capture_no_drops",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "onoff-sessions:session_bursts",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "udp-matrix:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix:trial_count",
+      "passed": true,
+      "detail": 96
+    },
+    {
+      "check": "udp-matrix:unique_repeats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-000:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-000:cpu_budget",
+      "passed": true,
+      "detail": 99.79248539748848
+    },
+    {
+      "check": "udp-matrix/trial-000:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-000:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-001:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-001:cpu_budget",
+      "passed": true,
+      "detail": 99.73557585860661
+    },
+    {
+      "check": "udp-matrix/trial-001:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-001:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-002:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-002:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-003:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-003:cpu_budget",
+      "passed": true,
+      "detail": 39.352567543192116
+    },
+    {
+      "check": "udp-matrix/trial-003:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-003:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-004:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-004:cpu_budget",
+      "passed": true,
+      "detail": 24.18198991004637
+    },
+    {
+      "check": "udp-matrix/trial-004:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-004:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-005:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-005:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-006:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-006:cpu_budget",
+      "passed": true,
+      "detail": 25.08947514720078
+    },
+    {
+      "check": "udp-matrix/trial-006:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-006:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-007:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-007:cpu_budget",
+      "passed": true,
+      "detail": 5.8788976095546825
+    },
+    {
+      "check": "udp-matrix/trial-007:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-007:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-008:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-008:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-009:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-009:cpu_budget",
+      "passed": true,
+      "detail": 50.52824176252751
+    },
+    {
+      "check": "udp-matrix/trial-009:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-009:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-010:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-010:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-011:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-011:cpu_budget",
+      "passed": true,
+      "detail": 3.080545440330551
+    },
+    {
+      "check": "udp-matrix/trial-011:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-011:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-012:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-012:cpu_budget",
+      "passed": true,
+      "detail": 24.982130116313776
+    },
+    {
+      "check": "udp-matrix/trial-012:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-012:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-013:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-013:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-014:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-014:cpu_budget",
+      "passed": true,
+      "detail": 25.04344910764135
+    },
+    {
+      "check": "udp-matrix/trial-014:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-014:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-015:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-015:cpu_budget",
+      "passed": true,
+      "detail": 50.15971537947967
+    },
+    {
+      "check": "udp-matrix/trial-015:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-015:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-016:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-016:cpu_budget",
+      "passed": true,
+      "detail": 99.74643350462402
+    },
+    {
+      "check": "udp-matrix/trial-016:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-016:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-017:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-017:cpu_budget",
+      "passed": true,
+      "detail": 50.054574113499086
+    },
+    {
+      "check": "udp-matrix/trial-017:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-017:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-018:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-018:cpu_budget",
+      "passed": true,
+      "detail": 47.695536528549255
+    },
+    {
+      "check": "udp-matrix/trial-018:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-018:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-019:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-019:cpu_budget",
+      "passed": true,
+      "detail": 49.996506333158834
+    },
+    {
+      "check": "udp-matrix/trial-019:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-019:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-020:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-020:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-021:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-021:cpu_budget",
+      "passed": true,
+      "detail": 24.912037129964283
+    },
+    {
+      "check": "udp-matrix/trial-021:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-021:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-022:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-022:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-023:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-023:cpu_budget",
+      "passed": true,
+      "detail": 49.197524177076
+    },
+    {
+      "check": "udp-matrix/trial-023:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-023:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-024:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-024:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-025:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-025:cpu_budget",
+      "passed": true,
+      "detail": 99.59499114356846
+    },
+    {
+      "check": "udp-matrix/trial-025:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-025:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-026:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-026:cpu_budget",
+      "passed": true,
+      "detail": 41.39567262005494
+    },
+    {
+      "check": "udp-matrix/trial-026:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-026:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-027:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-027:cpu_budget",
+      "passed": true,
+      "detail": 50.4265874245843
+    },
+    {
+      "check": "udp-matrix/trial-027:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-027:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-028:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-028:cpu_budget",
+      "passed": true,
+      "detail": 3.6987148816037854
+    },
+    {
+      "check": "udp-matrix/trial-028:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-028:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-029:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-029:cpu_budget",
+      "passed": true,
+      "detail": 3.846127602223117
+    },
+    {
+      "check": "udp-matrix/trial-029:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-029:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-030:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-030:cpu_budget",
+      "passed": true,
+      "detail": 3.986049687072862
+    },
+    {
+      "check": "udp-matrix/trial-030:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-030:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-031:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-031:cpu_budget",
+      "passed": true,
+      "detail": 25.028710990451046
+    },
+    {
+      "check": "udp-matrix/trial-031:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-031:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-032:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-032:cpu_budget",
+      "passed": true,
+      "detail": 99.77469627962931
+    },
+    {
+      "check": "udp-matrix/trial-032:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-032:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-033:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-033:cpu_budget",
+      "passed": true,
+      "detail": 3.1802497532219736
+    },
+    {
+      "check": "udp-matrix/trial-033:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-033:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-034:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-034:cpu_budget",
+      "passed": true,
+      "detail": 99.7033099430226
+    },
+    {
+      "check": "udp-matrix/trial-034:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-034:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-035:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-035:cpu_budget",
+      "passed": true,
+      "detail": 25.100451771036596
+    },
+    {
+      "check": "udp-matrix/trial-035:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-035:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-036:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-036:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-037:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-037:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-038:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-038:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-039:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-039:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-040:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-040:cpu_budget",
+      "passed": true,
+      "detail": 44.393549229919465
+    },
+    {
+      "check": "udp-matrix/trial-040:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-040:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-041:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-041:cpu_budget",
+      "passed": true,
+      "detail": 3.218373197319454
+    },
+    {
+      "check": "udp-matrix/trial-041:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-041:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-042:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-042:cpu_budget",
+      "passed": true,
+      "detail": 6.19991206925599
+    },
+    {
+      "check": "udp-matrix/trial-042:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-042:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-043:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-043:cpu_budget",
+      "passed": true,
+      "detail": 25.02125304387968
+    },
+    {
+      "check": "udp-matrix/trial-043:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-043:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-044:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-044:cpu_budget",
+      "passed": true,
+      "detail": 3.291659604998098
+    },
+    {
+      "check": "udp-matrix/trial-044:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-044:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-045:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-045:cpu_budget",
+      "passed": true,
+      "detail": 4.1157279584883515
+    },
+    {
+      "check": "udp-matrix/trial-045:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-045:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-046:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-046:cpu_budget",
+      "passed": true,
+      "detail": 4.1637962664994665
+    },
+    {
+      "check": "udp-matrix/trial-046:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-046:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-047:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-047:cpu_budget",
+      "passed": true,
+      "detail": 43.297381470473816
+    },
+    {
+      "check": "udp-matrix/trial-047:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-047:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-048:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-048:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-049:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-049:cpu_budget",
+      "passed": true,
+      "detail": 25.086528336285497
+    },
+    {
+      "check": "udp-matrix/trial-049:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-049:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-050:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-050:cpu_budget",
+      "passed": true,
+      "detail": 25.058972203129613
+    },
+    {
+      "check": "udp-matrix/trial-050:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-050:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-051:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-051:cpu_budget",
+      "passed": true,
+      "detail": 6.184247281495271
+    },
+    {
+      "check": "udp-matrix/trial-051:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-051:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-052:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-052:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-053:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-053:cpu_budget",
+      "passed": true,
+      "detail": 6.023923091473369
+    },
+    {
+      "check": "udp-matrix/trial-053:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-053:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-054:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-054:cpu_budget",
+      "passed": true,
+      "detail": 3.1745997563516477
+    },
+    {
+      "check": "udp-matrix/trial-054:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-054:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-055:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-055:cpu_budget",
+      "passed": true,
+      "detail": 50.020774354619746
+    },
+    {
+      "check": "udp-matrix/trial-055:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-055:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-056:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-056:cpu_budget",
+      "passed": true,
+      "detail": 5.792525665761771
+    },
+    {
+      "check": "udp-matrix/trial-056:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-056:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-057:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-057:cpu_budget",
+      "passed": true,
+      "detail": 3.0939169886533158
+    },
+    {
+      "check": "udp-matrix/trial-057:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-057:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-058:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-058:cpu_budget",
+      "passed": true,
+      "detail": 99.74325301514477
+    },
+    {
+      "check": "udp-matrix/trial-058:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-058:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-059:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-059:cpu_budget",
+      "passed": true,
+      "detail": 25.025814121424357
+    },
+    {
+      "check": "udp-matrix/trial-059:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-059:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-060:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-060:cpu_budget",
+      "passed": true,
+      "detail": 50.38326095633234
+    },
+    {
+      "check": "udp-matrix/trial-060:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-060:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-061:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-061:cpu_budget",
+      "passed": true,
+      "detail": 5.971488699136639
+    },
+    {
+      "check": "udp-matrix/trial-061:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-061:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-062:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-062:cpu_budget",
+      "passed": true,
+      "detail": 50.651662537810374
+    },
+    {
+      "check": "udp-matrix/trial-062:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-062:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-063:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-063:cpu_budget",
+      "passed": true,
+      "detail": 3.7241864289610858
+    },
+    {
+      "check": "udp-matrix/trial-063:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-063:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-064:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-064:cpu_budget",
+      "passed": true,
+      "detail": 99.79204907859311
+    },
+    {
+      "check": "udp-matrix/trial-064:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-064:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-065:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-065:cpu_budget",
+      "passed": true,
+      "detail": 25.103349342578138
+    },
+    {
+      "check": "udp-matrix/trial-065:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-065:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-066:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-066:cpu_budget",
+      "passed": true,
+      "detail": 25.097430552919313
+    },
+    {
+      "check": "udp-matrix/trial-066:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-066:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-067:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-067:cpu_budget",
+      "passed": true,
+      "detail": 3.1035753580474714
+    },
+    {
+      "check": "udp-matrix/trial-067:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-067:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-068:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-068:cpu_budget",
+      "passed": true,
+      "detail": 99.74687967689353
+    },
+    {
+      "check": "udp-matrix/trial-068:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-068:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-069:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-069:cpu_budget",
+      "passed": true,
+      "detail": 3.8062084628611363
+    },
+    {
+      "check": "udp-matrix/trial-069:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-069:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-070:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-070:cpu_budget",
+      "passed": true,
+      "detail": 49.99678746519309
+    },
+    {
+      "check": "udp-matrix/trial-070:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-070:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-071:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-071:cpu_budget",
+      "passed": true,
+      "detail": 99.59842744000612
+    },
+    {
+      "check": "udp-matrix/trial-071:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-071:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-072:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-072:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-073:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-073:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-074:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-074:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-075:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-075:cpu_budget",
+      "passed": true,
+      "detail": 3.8040480871571716
+    },
+    {
+      "check": "udp-matrix/trial-075:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-075:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-076:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-076:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-077:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-077:cpu_budget",
+      "passed": true,
+      "detail": 3.7609743976846453
+    },
+    {
+      "check": "udp-matrix/trial-077:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-077:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-078:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-078:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-079:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-079:cpu_budget",
+      "passed": true,
+      "detail": 5.9583514031786935
+    },
+    {
+      "check": "udp-matrix/trial-079:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-079:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-080:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-080:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-081:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-081:cpu_budget",
+      "passed": true,
+      "detail": 25.049612427341494
+    },
+    {
+      "check": "udp-matrix/trial-081:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-081:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-082:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-082:cpu_budget",
+      "passed": true,
+      "detail": 99.79749173609584
+    },
+    {
+      "check": "udp-matrix/trial-082:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-082:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-083:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-083:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-084:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-084:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-085:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-085:cpu_budget",
+      "passed": true,
+      "detail": 99.49705006749268
+    },
+    {
+      "check": "udp-matrix/trial-085:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-085:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-086:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-086:cpu_budget",
+      "passed": true,
+      "detail": 6.1657694605435385
+    },
+    {
+      "check": "udp-matrix/trial-086:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-086:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-087:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-087:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-088:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-088:cpu_budget",
+      "passed": true,
+      "detail": 5.867166940716346
+    },
+    {
+      "check": "udp-matrix/trial-088:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-088:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-089:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-089:cpu_budget",
+      "passed": true,
+      "detail": 24.89124300986791
+    },
+    {
+      "check": "udp-matrix/trial-089:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-089:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-090:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-090:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-091:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-091:cpu_budget",
+      "passed": true,
+      "detail": 50.231658456949674
+    },
+    {
+      "check": "udp-matrix/trial-091:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-091:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-092:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-092:cpu_budget",
+      "passed": true,
+      "detail": 40.595026833433074
+    },
+    {
+      "check": "udp-matrix/trial-092:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-092:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-093:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-093:cpu_budget",
+      "passed": true,
+      "detail": 3.098571056140311
+    },
+    {
+      "check": "udp-matrix/trial-093:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-093:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-094:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-094:cpu_budget",
+      "passed": true,
+      "detail": 3.036801934368601
+    },
+    {
+      "check": "udp-matrix/trial-094:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-094:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-095:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-095:cpu_budget",
+      "passed": true,
+      "detail": 50.20070355633076
+    },
+    {
+      "check": "udp-matrix/trial-095:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-matrix/trial-095:successful_sender",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": true,
+  "audit_script_sha256": "53cd7d0248218927c6d2c938b082ab910ff8372abefae73de19b8041354513ce",
+  "host_counter_note": "Host-wide counters include unrelated traffic; deltas alone do not identify the experiment socket."
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "cycle": 0,
+    "requested_on_s": 0.1,
+    "requested_off_s": 0.2,
+    "native_cycles": 5,
+    "process_wall_s": 1.499605722999604,
+    "sender_cpu_percent": 2.634292427277595
+  }
+]

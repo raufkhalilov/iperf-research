@@ -1,0 +1,19 @@
+{
+  "command": [
+    "systemd-run",
+    "--user",
+    "--quiet",
+    "--wait",
+    "--collect",
+    "--pipe",
+    "--unit=iperf-lab-c95afb67e7cb4a6e844d7b0c8ce68a50",
+    "-p",
+    "WorkingDirectory=/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research",
+    "/usr/bin/python3",
+    "-m",
+    "netperf_lab.worker",
+    "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/smoke-04/ftp/transfer-001/sender-spec.json"
+  ],
+  "backend": "systemd",
+  "unit": "iperf-lab-c95afb67e7cb4a6e844d7b0c8ce68a50"
+}

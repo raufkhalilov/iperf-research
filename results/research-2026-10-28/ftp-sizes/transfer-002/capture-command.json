@@ -1,0 +1,14 @@
+[
+  "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/scripts/docker-tcpdump.sh",
+  "--immediate-mode",
+  "-i",
+  "lo",
+  "-U",
+  "-s",
+  "160",
+  "-w",
+  "-",
+  "tcp",
+  "port",
+  "17402"
+]

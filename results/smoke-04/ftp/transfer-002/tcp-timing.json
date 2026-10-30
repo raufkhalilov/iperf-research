@@ -1,0 +1,10 @@
+{
+  "unique_data_bytes": 500000,
+  "data_packets": 12,
+  "emission_span_s": 0.0002758502960205078,
+  "completion_ack_span_s": 0.00030994415283203125,
+  "acknowledged_goodput_bps": 12905550769.23077,
+  "first_data_wall_s": 1793174904.717209,
+  "last_data_wall_s": 1793174904.717485,
+  "interpretation": "Sender capture: first file-data packet to first cumulative ACK covering the file; includes retransmission time. Excludes TCP setup and iPerf3 control teardown. Loopback offloads remain enabled."
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/usr/bin/tcpdump",
+    "--immediate-mode",
+    "--help"
+  ],
+  "returncode": 0,
+  "stdout": "tcpdump version 4.99.4\nlibpcap version 1.10.4 (with TPACKET_V3)\nOpenSSL 3.0.13 30 Jan 2024\nUsage: tcpdump [-AbdDefhHIJKlLnNOpqStuUvxX#] [ -B size ] [ -c count ] [--count]\n\t\t[ -C file_size ] [ -E algo:secret ] [ -F file ] [ -G seconds ]\n\t\t[ -i interface ] [ --immediate-mode ] [ -j tstamptype ]\n\t\t[ -M secret ] [ --number ] [ --print ] [ -Q in|out|inout ]\n\t\t[ -r file ] [ -s snaplen ] [ -T type ] [ --version ]\n\t\t[ -V file ] [ -w file ] [ -W filecount ] [ -y datalinktype ]\n\t\t[ --time-stamp-precision precision ] [ --micro ] [ --nano ]\n\t\t[ -z postrotate-command ] [ -Z user ] [ expression ]\n",
+  "stderr": ""
+}

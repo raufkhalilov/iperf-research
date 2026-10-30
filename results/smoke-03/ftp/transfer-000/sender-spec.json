@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/.tools/root/usr/bin/iperf3",
+    "-c",
+    "127.0.0.1",
+    "-p",
+    "16600",
+    "-n",
+    "500000",
+    "-l",
+    "62500",
+    "-J"
+  ],
+  "cpu": 0,
+  "quota_percent": null,
+  "stdout": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/smoke-03/ftp/transfer-000/client.stdout",
+  "stderr": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/smoke-03/ftp/transfer-000/client.stderr",
+  "metadata": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/smoke-03/ftp/transfer-000/sender-metadata.json",
+  "accounting": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/smoke-03/ftp/transfer-000/sender-accounting.json"
+}

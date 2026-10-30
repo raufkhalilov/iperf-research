@@ -1,0 +1,30 @@
+{
+  "kind": "udp_matrix",
+  "name": "udp-buffer-control",
+  "seed": 814,
+  "cpu_backend": "systemd",
+  "receiver": {
+    "mode": "local",
+    "host": "127.0.0.1"
+  },
+  "tools": [
+    "iperf3"
+  ],
+  "socket_buffer_bytes": 4194304,
+  "pacing_timer_us": 1000,
+  "cpu_quotas_percent": [
+    null,
+    50,
+    25
+  ],
+  "rates_bps": [
+    200000000
+  ],
+  "packet_sizes": [
+    1200
+  ],
+  "duration_s": 2,
+  "repeats": 3,
+  "cooldown_s": 0.2,
+  "base_port": 17600
+}

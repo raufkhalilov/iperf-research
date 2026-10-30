@@ -1,0 +1,8 @@
+------------------------------------------------------------
+Server listening on UDP port 15301
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 15301 connected with 127.0.0.1 port 37619 (isoch)
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-1.5003 sec   187 KBytes  1.02 Mbits/sec   0.001 ms 0/162 (0%)
+[  3] WARNING: ack of last datagram failed.

@@ -1,0 +1,9 @@
+UDP 1/9: iperf3, quota=50, target=200000000, tx=194937517
+UDP 2/9: iperf3, quota=25, target=200000000, tx=199881517
+UDP 3/9: iperf3, quota=50, target=200000000, tx=199880318
+UDP 4/9: iperf3, quota=25, target=200000000, tx=199845950
+UDP 5/9: iperf3, quota=None, target=200000000, tx=199876121
+UDP 6/9: iperf3, quota=50, target=200000000, tx=195009189
+UDP 7/9: iperf3, quota=None, target=200000000, tx=199844954
+UDP 8/9: iperf3, quota=25, target=200000000, tx=199877923
+UDP 9/9: iperf3, quota=None, target=200000000, tx=199878719

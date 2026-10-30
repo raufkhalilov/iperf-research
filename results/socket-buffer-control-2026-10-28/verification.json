@@ -1,0 +1,189 @@
+{
+  "checks": [
+    {
+      "check": "root_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "recorded_generation_sources_unchanged",
+      "passed": true,
+      "detail": [
+        "netperf_lab/analysis.py"
+      ]
+    },
+    {
+      "check": "postprocessing_sources_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control:complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control:trial_count",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "check": "udp-buffer-control:unique_repeats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-000:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-000:cpu_budget",
+      "passed": true,
+      "detail": 50.01834688615535
+    },
+    {
+      "check": "udp-buffer-control/trial-000:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-000:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-001:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-001:cpu_budget",
+      "passed": true,
+      "detail": 24.946868722638726
+    },
+    {
+      "check": "udp-buffer-control/trial-001:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-001:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-002:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-002:cpu_budget",
+      "passed": true,
+      "detail": 50.02236375343511
+    },
+    {
+      "check": "udp-buffer-control/trial-002:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-002:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-003:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-003:cpu_budget",
+      "passed": true,
+      "detail": 25.204498549136254
+    },
+    {
+      "check": "udp-buffer-control/trial-003:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-003:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-004:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-004:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-005:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-005:cpu_budget",
+      "passed": true,
+      "detail": 50.20281802623723
+    },
+    {
+      "check": "udp-buffer-control/trial-005:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-005:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-006:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-006:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-007:quota",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-007:cpu_budget",
+      "passed": true,
+      "detail": 25.016032778768718
+    },
+    {
+      "check": "udp-buffer-control/trial-007:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-007:successful_sender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-008:affinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "udp-buffer-control/trial-008:successful_sender",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": true,
+  "audit_script_sha256": "53cd7d0248218927c6d2c938b082ab910ff8372abefae73de19b8041354513ce",
+  "host_counter_note": "Host-wide counters include unrelated traffic; deltas alone do not identify the experiment socket."
+}

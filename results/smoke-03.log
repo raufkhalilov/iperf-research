@@ -1,0 +1,9 @@
+UDP 1/4: iperf3, quota=25, target=10000000, tx=9988536
+UDP 2/4: iperf3, quota=None, target=10000000, tx=9985641
+UDP 3/4: iperf, quota=None, target=10000000, tx=10018385
+UDP 4/4: iperf, quota=25, target=10000000, tx=10018395
+ON/OFF isochronous: 5 observed bursts, 402 packets
+ON/OFF sessions: 3 observed bursts, 306 packets
+TCP 1/3: 500000 bytes, 1.001601s
+TCP 2/3: 500000 bytes, 1.002275s
+TCP 3/3: 500000 bytes, 1.002271s

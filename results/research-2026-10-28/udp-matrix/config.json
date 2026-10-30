@@ -1,0 +1,35 @@
+{
+  "seed": 814,
+  "cpu_backend": "systemd",
+  "receiver": {
+    "mode": "local",
+    "host": "127.0.0.1"
+  },
+  "socket_buffer_bytes": 1048576,
+  "pacing_timer_us": 1000,
+  "capture_command": [
+    "scripts/docker-tcpdump.sh"
+  ],
+  "capture_interface": "lo",
+  "capture_tcp": true,
+  "name": "udp-matrix",
+  "kind": "udp_matrix",
+  "cpu_quotas_percent": [
+    null,
+    100,
+    50,
+    25
+  ],
+  "rates_bps": [
+    10000000,
+    200000000
+  ],
+  "packet_sizes": [
+    128,
+    1200
+  ],
+  "duration_s": 2,
+  "repeats": 3,
+  "cooldown_s": 0.2,
+  "base_port": 17000
+}

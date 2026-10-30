@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/.tools/root/usr/bin/iperf",
+    "-c",
+    "127.0.0.1",
+    "-p",
+    "17201",
+    "-u",
+    "-t",
+    "2.3995",
+    "-l",
+    "1200",
+    "-w",
+    "1048576",
+    "-y",
+    "C",
+    "--isochronous=3.33333333333:3200000,0",
+    "--ipg",
+    "1"
+  ],
+  "cpu": 0,
+  "quota_percent": 25,
+  "stdout": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/onoff-native-cpu25/sender-000/client.stdout",
+  "stderr": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/onoff-native-cpu25/sender-000/client.stderr",
+  "metadata": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/onoff-native-cpu25/sender-000/sender-metadata.json",
+  "accounting": "/home/corp.1440.space/r.khalilov/Projects/HSE/projects/iperf-research/results/research-2026-10-28/onoff-native-cpu25/sender-000/sender-accounting.json"
+}

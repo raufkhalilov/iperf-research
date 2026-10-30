@@ -1,0 +1,110 @@
+{
+	"start":	{
+		"connected":	[{
+				"socket":	5,
+				"local_host":	"127.0.0.1",
+				"local_port":	16601,
+				"remote_host":	"127.0.0.1",
+				"remote_port":	56150
+			}],
+		"version":	"iperf 3.16",
+		"system_info":	"Linux NB-2147-LNX.corp.1440.space 7.0.0-38-generic #38~24.04.4-Ubuntu SMP PREEMPT_DYNAMIC Mon Sep 14 16:37:11 UTC 2 x86_64",
+		"sock_bufsize":	0,
+		"sndbuf_actual":	16384,
+		"rcvbuf_actual":	131072,
+		"timestamp":	{
+			"time":	"Wed, 28 Oct 2026 08:05:24 GMT",
+			"timesecs":	1793174724
+		},
+		"accepted_connection":	{
+			"host":	"127.0.0.1",
+			"port":	56148
+		},
+		"cookie":	"tnl2t36ug7bya3wjtqsthcett42ukzpqau6e",
+		"tcp_mss_default":	0,
+		"target_bitrate":	0,
+		"fq_rate":	0,
+		"test_start":	{
+			"protocol":	"TCP",
+			"num_streams":	1,
+			"blksize":	62500,
+			"omit":	0,
+			"duration":	0,
+			"bytes":	500000,
+			"blocks":	0,
+			"reverse":	0,
+			"tos":	0,
+			"target_bitrate":	0,
+			"bidir":	0,
+			"fqrate":	0
+		}
+	},
+	"intervals":	[{
+			"streams":	[{
+					"socket":	5,
+					"start":	0,
+					"end":	1.000966,
+					"seconds":	1.00096595287323,
+					"bytes":	500000,
+					"bits_per_second":	3996139.9171651853,
+					"omitted":	false,
+					"sender":	false
+				}],
+			"sum":	{
+				"start":	0,
+				"end":	1.000966,
+				"seconds":	1.00096595287323,
+				"bytes":	500000,
+				"bits_per_second":	3996139.9171651853,
+				"omitted":	false,
+				"sender":	false
+			}
+		}],
+	"end":	{
+		"streams":	[{
+				"sender":	{
+					"socket":	5,
+					"start":	0,
+					"end":	1.002345,
+					"seconds":	1.002345,
+					"bytes":	0,
+					"bits_per_second":	0,
+					"sender":	false
+				},
+				"receiver":	{
+					"socket":	5,
+					"start":	0,
+					"end":	1.002345,
+					"seconds":	1.002345,
+					"bytes":	500000,
+					"bits_per_second":	3990641.94463982,
+					"sender":	false
+				}
+			}],
+		"sum_sent":	{
+			"start":	0,
+			"end":	1.002345,
+			"seconds":	1.002345,
+			"bytes":	0,
+			"bits_per_second":	0,
+			"sender":	false
+		},
+		"sum_received":	{
+			"start":	0,
+			"end":	1.002345,
+			"seconds":	1.002345,
+			"bytes":	500000,
+			"bits_per_second":	3990641.94463982,
+			"sender":	false
+		},
+		"cpu_utilization_percent":	{
+			"host_total":	0.025240558484768371,
+			"host_user":	0.0049882526649739868,
+			"host_system":	0.020252305819794383,
+			"remote_total":	0,
+			"remote_user":	0,
+			"remote_system":	0
+		},
+		"receiver_tcp_congestion":	"cubic"
+	}
+}

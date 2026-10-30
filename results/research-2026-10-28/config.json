@@ -1,0 +1,132 @@
+{
+  "seed": 814,
+  "cpu_backend": "systemd",
+  "receiver": {
+    "mode": "local",
+    "host": "127.0.0.1"
+  },
+  "socket_buffer_bytes": 1048576,
+  "pacing_timer_us": 1000,
+  "capture_command": [
+    "scripts/docker-tcpdump.sh"
+  ],
+  "capture_interface": "lo",
+  "capture_tcp": true,
+  "scenarios": [
+    {
+      "name": "udp-matrix",
+      "kind": "udp_matrix",
+      "cpu_quotas_percent": [
+        null,
+        100,
+        50,
+        25
+      ],
+      "rates_bps": [
+        10000000,
+        200000000
+      ],
+      "packet_sizes": [
+        128,
+        1200
+      ],
+      "duration_s": 2,
+      "repeats": 3,
+      "cooldown_s": 0.2,
+      "base_port": 17000
+    },
+    {
+      "name": "onoff-native",
+      "kind": "onoff",
+      "method": "isochronous",
+      "on_s": 0.1,
+      "off_s": 0.2,
+      "cycles": 8,
+      "on_rate_bps": 9600000,
+      "packet_size": 1200,
+      "gap_threshold_s": 0.05,
+      "base_port": 17200
+    },
+    {
+      "name": "onoff-native-cpu25",
+      "kind": "onoff",
+      "method": "isochronous",
+      "cpu_quota_percent": 25,
+      "on_s": 0.1,
+      "off_s": 0.2,
+      "cycles": 8,
+      "on_rate_bps": 9600000,
+      "packet_size": 1200,
+      "gap_threshold_s": 0.05,
+      "base_port": 17201
+    },
+    {
+      "name": "onoff-sessions",
+      "kind": "onoff",
+      "method": "sessions",
+      "on_s": 0.1,
+      "off_s": 0.2,
+      "cycles": 5,
+      "on_rate_bps": 9600000,
+      "packet_size": 1200,
+      "gap_threshold_s": 0.05,
+      "base_port": 17202
+    },
+    {
+      "name": "onoff-random",
+      "kind": "onoff",
+      "method": "sessions",
+      "on_s": {
+        "distribution": "uniform",
+        "min_s": 0.08,
+        "max_s": 0.16
+      },
+      "off_s": {
+        "distribution": "exponential",
+        "mean_s": 0.2
+      },
+      "cycles": 6,
+      "on_rate_bps": 9600000,
+      "packet_size": 1200,
+      "gap_threshold_s": 0.03,
+      "base_port": 17203
+    },
+    {
+      "name": "burst-options-probe",
+      "kind": "onoff",
+      "method": "burst_probe",
+      "on_s": 0.1,
+      "off_s": 0.2,
+      "cycles": 5,
+      "on_rate_bps": 9600000,
+      "packet_size": 1200,
+      "gap_threshold_s": 0.05,
+      "base_port": 17204
+    },
+    {
+      "name": "ftp-model2",
+      "kind": "ftp",
+      "transfers": 6,
+      "file_sizes_bytes": [
+        500000
+      ],
+      "reading_time": {
+        "distribution": "exponential",
+        "mean_s": 5
+      },
+      "base_port": 17300
+    },
+    {
+      "name": "ftp-sizes",
+      "kind": "ftp",
+      "transfers": 6,
+      "file_sizes_bytes": [
+        500000,
+        5000000,
+        50000000
+      ],
+      "reading_time": 0.3,
+      "base_port": 17400
+    }
+  ]
+}

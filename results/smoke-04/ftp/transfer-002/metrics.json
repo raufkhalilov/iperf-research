@@ -1,0 +1,22 @@
+{
+  "transfer": 2,
+  "block_bytes": 62500,
+  "reading_time_requested_s": 0.1742322485731804,
+  "process_completion_to_launch_s": 0.8189260270000887,
+  "requested_bytes": 500000,
+  "tx_bytes": 500000,
+  "rx_bytes": 500000,
+  "size_error_bytes": 0,
+  "transfer_seconds": 0.100724,
+  "tx_bps": 39712481.63297725,
+  "rx_bps": 39499930.87512097,
+  "retransmits": 0,
+  "process_wall_s": 0.10507083099992087,
+  "sender_cpu_s": 0.10240199999999999,
+  "sender_cpu_percent": 97.45996964664448,
+  "receiver_cpu_percent": 0.0,
+  "pcap_completion_ack_span_s": 0.00030994415283203125,
+  "pcap_emission_span_s": 0.0002758502960205078,
+  "pcap_unique_data_bytes": 500000,
+  "pcap_acknowledged_goodput_bps": 12905550769.23077
+}

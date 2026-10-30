@@ -1,0 +1,32 @@
+{
+  "seed": 814,
+  "cpu_backend": "systemd",
+  "receiver": {
+    "mode": "local",
+    "host": "127.0.0.1"
+  },
+  "socket_buffer_bytes": 1048576,
+  "pacing_timer_us": 1000,
+  "capture_command": [
+    "scripts/docker-tcpdump.sh"
+  ],
+  "capture_interface": "lo",
+  "capture_tcp": true,
+  "name": "onoff-random",
+  "kind": "onoff",
+  "method": "sessions",
+  "on_s": {
+    "distribution": "uniform",
+    "min_s": 0.08,
+    "max_s": 0.16
+  },
+  "off_s": {
+    "distribution": "exponential",
+    "mean_s": 0.2
+  },
+  "cycles": 6,
+  "on_rate_bps": 9600000,
+  "packet_size": 1200,
+  "gap_threshold_s": 0.03,
+  "base_port": 17203
+}
